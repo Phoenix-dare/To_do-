@@ -1,0 +1,80 @@
+html,body{
+width:100%;
+height:100%;
+}
+.main_container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  width:100%;
+height:100%;
+  background-color:#90EE90;
+}
+h2{
+font-style:Helvetica,sans-serif;
+  font-weight:800;
+  color:darkcyan;
+border-bottom:4px groove darkcyan;
+
+}
+.d-grid{
+
+  width:80%;
+  position:relative;
+  bottom:30px;
+  box-sizing:border-box;
+}
+.btn{
+  padding:10px;
+  margin:0;
+}
+#tasks{
+  height:90%;
+  width:90%;
+  background-color:floralwhite;
+  border:4px outset darkblue;
+  overflow:scroll;
+border-radius:5px;
+
+}
+.task_input{
+  border-bottom:3px inset black; 
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  background-color:lightcyan;
+}
+.fw-bold{
+  font-size:1.3rem;
+padding:5px;
+
+}
+.small{
+  
+  font-size:1.3rem;
+  font-weight:400 !important;
+  margin:5px;
+padding:5px;
+  order:-1;
+}
+.para{
+  font-size:1rem;
+}
+.options{
+  margin:5px;
+  padding:5px;
+}
+.fas{
+  margin:5px;
+  padding:5px;
+}
+
+.fa-edit{
+  color:black;
+}
+.fa-trash-alt{
+  color:red;
+}
